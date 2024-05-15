@@ -6,11 +6,12 @@ from video import threadVideo
 WINDOWWIDTH = 400
 WINDOWHEIGHT = 600
 
-BIRDWIDTH = 105
+BIRDWIDTH = 65
 BIRDHEIGHT = 65
 G = 0.4
 SPEEDFLY = -3
-BIRDIMG = pygame.image.load('img/1.png')
+BIRDIMG = pygame.image.load('img/bird.png')
+BIRDIMG.set_colorkey((255, 255, 255))
 
 COLUMNWIDTH = 60
 COLUMNHEIGHT = 500
